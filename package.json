@@ -1,0 +1,31 @@
+{
+  "name": "saltcorn-view-plantuml",
+  "version": "0.1.0",
+  "description": "Saltcorn plugin: Fieldview to show text field containing diagram as SVG using PlantUML server.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.13.2"
+  },
+  "scripts": {
+    "test": "node --check index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyhedgehog/saltcorn-view-plantuml.git"
+  },
+  "keywords": [
+    "saltcorn",
+    "plugin"
+  ],
+  "author": "Michael P. Dubner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pyhedgehog/saltcorn-view-plantuml/issues"
+  },
+  "homepage": "https://github.com/pyhedgehog/saltcorn-view-plantuml#readme",
+  "dependencies": {
+    "@saltcorn/data": "^0.9.0-beta.7",
+    "@saltcorn/markup": "^0.9.0-beta.6",
+    "plantuml-encoder": "^1.4.0"
+  }
+}
